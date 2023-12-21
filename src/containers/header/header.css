@@ -1,0 +1,43 @@
+.headerMainArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo {
+  background-color: transparent;
+}
+
+.title {
+  font-size: 1.2857rem;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: var(--br);
+  border-bottom-right-radius: var(--br);
+  background-color: var(--colorWhite);
+  padding: 20px;
+}
+
+.application {
+  background-color: var(--colorMain);
+  color: var(--colorWhite);
+  padding: 10px;
+}
+
+.logoSmall {
+  width: 30px;
+  height: 30px;
+}
+
+.logoUsual {
+  width: 40px;
+  height: 40px;
+}

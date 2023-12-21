@@ -1,0 +1,31 @@
+.infoBlock {
+  padding: 10px;
+  background-color: var(--colorLightGrey);
+  border-radius: var(--br);
+}
+
+.buttonsArea {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+a {
+  color: var(--colorMain);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerInfo {
+  background-color: #e0e0e0;
+  font-family: 'Roboto Light', sans-serif;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.linkArea {
+  width: 100%;
+}

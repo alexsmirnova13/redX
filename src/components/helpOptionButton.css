@@ -1,0 +1,27 @@
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 6px;
+  width: 110px;
+  background-color: var(--colorWhite);
+  border: none;
+  border-radius: var(--br);
+  cursor: pointer;
+}
+.buttonWrapper:hover {
+  background-color: #ffd5d5;
+}
+.svg {
+  width: 14px;
+  height: 14px;
+}
+.redButton {
+  background-color: var(--colorMain);
+  color: var(--colorWhite);
+}
+.redButton:hover {
+  background-color: var(--colorMain);
+  color: var(--colorWhite);
+}

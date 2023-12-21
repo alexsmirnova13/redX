@@ -1,0 +1,85 @@
+:root {
+  --red: #ff3838;
+  --text: #333;
+  --darkRed: #b62424;
+  --comment: #777;
+  --lightGrey: #e0e0e0;
+  --br: 6px;
+
+  --requestNew: #ccc;
+  --requestProgress: #fda145;
+  --requestFound: #5eb5e0;
+  --requestCompleted: #5ee074;
+  --requestCancelled: #e05e71;
+
+  --colorMain: #ff3838;
+  --colorWhite: #fff;
+  --colorLightGrey: #eee;
+  --colorGrey: #888;
+  --colorBg: #f2f2f2;
+  --colorBorder: #bbb;
+  background-color: var(--colorBg);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 14px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.checkboxArea {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.selectInput {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.pairOfSelectsData {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.blockContentArea {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.familyBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonsAreaSpaceBetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}

@@ -1,0 +1,18 @@
+.optionWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorWhite);
+  border-left: var(--br) solid var(--colorMain);
+  border-radius: var(--br);
+  padding: 10px;
+  gap: 5px;
+}
+.svg {
+  width: 14px;
+  height: 14px;
+}
+.optionText {
+  font-size: 0.8571rem;
+}

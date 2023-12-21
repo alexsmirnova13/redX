@@ -1,0 +1,9 @@
+.textBlock {
+  border-radius: var(--br);
+  background-color: var(--colorWhite);
+  padding: 20px;
+  border-left: var(--br) solid var(--colorMain);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

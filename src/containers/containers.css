@@ -1,0 +1,106 @@
+.titleName {
+  color: var(--colorGrey);
+  border-top: 1px solid var(--colorLightGrey);
+  padding-top: 5px;
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.pairOfSelects {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.h3Title {
+  font-size: 0.8571rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #333;
+}
+.blockContent {
+  padding-top: 20px;
+  background-color: var(--colorWhite);
+  padding: 20px;
+  border-radius: var(--br);
+}
+
+.blockWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titleName {
+  color: var(--colorGrey);
+  border-top: 1px solid var(--colorLightGrey);
+  padding-top: 5px;
+  margin: 10px 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.countInput {
+  width: 23px;
+  height: 23px;
+  border: none;
+  display: flex;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.blockWarningContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  border-radius: var(--br);
+  background-color: #ffd2c4;
+}
+
+.addMarginTop {
+  margin-top: 20px;
+}
+
+.allBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.optionsArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.smallTitle {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--colorGrey);
+}
+.bigTitle {
+  font-size: 1.1429rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.withError {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-bottom: 10px;
+}
+.pairWithError {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

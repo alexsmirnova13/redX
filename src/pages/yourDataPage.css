@@ -1,0 +1,5 @@
+.infoTextGreen {
+  padding: 20px;
+  background-color: #c2f3c2;
+  border-radius: var(--br);
+}
